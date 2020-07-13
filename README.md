@@ -96,3 +96,6 @@ $ cp PATH_TO_NV_RAW_FILES* 1_AWK/RAW_ALL/NV_RAW
 $ cp PATH_TO_ADR_RAW_FILES* 1_AWK/RAW_ALL/ADR_RAW
 $ python3.6 main_No_RAD.py
 ```
+# Output
+
+When the code finishes, in folder "8_Extrema/" you will find the extrema file output with the name you gave in line 7084.
