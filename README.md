@@ -91,6 +91,7 @@ In the scripts there are many path variables similar to "in_dir", or "out_dir", 
 The easiest way to work around it would be to do a git clone of this repository getting the correct structure and auxiliary files e.g. msl_ls_sunrise_sunset_sol_0_to_7299_v_2_msl_sclk_v_13. Then, copy the raw files in 1_AWK/RAW_ALL/*_RAW directories and finally run the python script.
 ```
 $ git clone https://github.com/RobertoMantas/Extrema_REMS.git
+$ cd Extrema_REMS/
 $ cp PATH_TO_MD_RAW_FILES* 1_AWK/RAW_ALL/MD_RAW
 $ cp PATH_TO_NV_RAW_FILES* 1_AWK/RAW_ALL/NV_RAW
 $ cp PATH_TO_ADR_RAW_FILES* 1_AWK/RAW_ALL/ADR_RAW
